@@ -20,6 +20,7 @@ import '@/css/main.css'
 
 function MyApp({ Component, pageProps, mainMenu }) {
   const [isLoading, setIsLoading] = useState(false);
+  const [isClient, setIsClient] = useState(false);
   const router = useRouter()
   const authToken = process.env.NEXT_PUBLIC_BUTTER_CMS_API_KEY
 
@@ -55,20 +56,20 @@ function MyApp({ Component, pageProps, mainMenu }) {
     </>
   ) : <Component {...pageProps} />
 
-  return <>
+  return <div>
     <Head>
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-      <title>Sample Landing Page with Components - powered by ButterCMS</title>
-      <meta name="description" content="Sample Landing Page with Components - powered by ButterCMS" />
+      <title>Home Page</title>
+      <meta name="description" content="Climate Women" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="shortcut icon" type="image/x-icon" href="https://buttercms.com/static/v2/images/favicon.png" />
+      <link rel="shortcut icon" type="image/x-icon" href="" />
     </Head>
 
     {isLoading && <Preloader></Preloader>}
 
     {!isLoading && pageLayout}
-  </>
+  </div>
 
 }
 
