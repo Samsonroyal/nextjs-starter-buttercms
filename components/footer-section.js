@@ -50,7 +50,8 @@ export default function FooterSection({ mainMenu }) {
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="footer-widget">
                             <h3>Subscribe to our Newsletter</h3>
-                            <form action="#">
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeDvve4xT2b0-5C09a-BRrenT604rs5n9BC6dNZDrzE6NYIJQ/viewform?embedded=true" width="220" height="418" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            <form action="submit">
                                 <input type="email" placeholder="Email" />
                                 <button className="main-btn btn-hover">Subscribe</button>
                             </form>
