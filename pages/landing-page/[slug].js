@@ -28,7 +28,7 @@ export default function LandingPage({ page, blogPosts }) {
         <title>{page.fields.seo.title}</title>
         <meta name="description" content={page.fields.seo.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="https://buttercms.com/static/v2/images/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://cdn.buttercms.com/L8gwV085Q4mal2nqMQgH" />
       </Head>
 
       {page.fields.body.map(({ type, fields: sectionData }, index) =>

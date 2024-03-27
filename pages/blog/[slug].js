@@ -30,7 +30,7 @@ export default function BlogPost({ post, categories }) {
             <title>{post.seoTitle}</title>
             <meta name="description" content={post.metaDescription} />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="shortcut icon" type="image/x-icon" href="https://buttercms.com/static/v2/images/favicon.png" />
+            <link rel="shortcut icon" type="image/x-icon" href="https://cdn.buttercms.com/L8gwV085Q4mal2nqMQgH" />
 
             <meta property="og:type" content="website" />
             <meta property="og:url" content={post.url} />
