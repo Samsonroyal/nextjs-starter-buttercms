@@ -29,7 +29,7 @@ export default function HeaderSection({ mainMenu }) {
                     <div className="row align-items-center">
                         <div className="col-lg-12">
                             <nav className="navbar navbar-expand-lg">
-                                <a className="navbar-brand" href="https://buttercms.com">
+                                <a className="navbar-brand" href="https://climatewomen.org">
                                     <Image
                                         src="https://cdn.buttercms.com/L8gwV085Q4mal2nqMQgH"
                                         alt="Logo"
