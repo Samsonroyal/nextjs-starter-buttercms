@@ -25,13 +25,29 @@ export default function FooterSection({ mainMenu }) {
                                         }} />
                                 </a>
                             </div>
-                            <p className="desc">Climate Women Media Action.</p>
+                            <p className="desc">Our Blog is Built on
+                            <a href="https://buttercms.com">
+                                    <Image
+                                        width={200}
+                                        height={50}
+                                        src="https://cdn.buttercms.com/PGJPyIwaQ2KnOA8UyKfH"
+                                        alt="logo"
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto"
+                                        }} />
+                                </a>
+                            
+                            
+                            </p>
+                            
                             <ul className="social-links">
                                 <li><a href="#0"><i className="lni lni-facebook"></i></a></li>
                                 <li><a href="#0"><i className="lni lni-linkedin"></i></a></li>
                                 <li><a href="#0"><i className="lni lni-instagram"></i></a></li>
                                 <li><a href="#0"><i className="lni lni-twitter"></i></a></li>
                             </ul>
+                            
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-4 col-md-12 col-sm-12 offset-xl-1">
